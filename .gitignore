@@ -1,0 +1,28 @@
+# data (regenerable via scripts; keep only data_card.md)
+data/*.jsonl
+data/*.json
+
+# model artifacts
+*.safetensors
+*.bin
+ckpt_*/
+judge_*/
+final_adapter/
+*_merged/
+
+# experiment tracking
+wandb/
+
+# results (optional — keep if you want them versioned)
+*_results.json
+*_benchmark.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.usb_venv/
+.ipynb_checkpoints/
+
+# os
+.DS_Store
